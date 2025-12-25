@@ -194,6 +194,26 @@ h1 {
     background-color: transparent;
 }
 
+.ssss{
+    background-color: black;
+}
+.scroller{
+   
+    padding: 50px 20px;
+   
+    /* width: 310%; */
+    
+   
+}
+.scroller h1{
+    font-size: 300px;
+    white-space: nowrap;
+    color: royalblue;
+    font-weight: normal;
+
+    
+    
+}
 .des {
     line-height: 1.5;
     text-align: center;
