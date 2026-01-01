@@ -208,8 +208,9 @@ h1 {
 .scroller h1{
     font-size: 300px;
     white-space: nowrap;
-    color: royalblue;
+    color: whitesmoke;
     font-weight: normal;
+ 
 
     
     
@@ -722,6 +723,31 @@ nav {
   }
 }
 
+.wheel{
+    background-color: royalblue;
+    gap:20px;
+    padding:  20px 40px;
+    color:white;
+    border-radius: 40px;
+    flex-shrink: 0;
+    display: flex;
+    white-space: nowrap;
+   
+}
+.wheel2{
+    display: flex;
+    white-space: nowrap;
+     gap:20px;
+
+}
+
+.wheel h1{
+    font-size: 70px;
+    font-family: "moon dance";
+}
+.wheel img{
+    width: 100px;
+}
 /* For Mobile Screens */
 @media (max-width: 768px) {
   nav ul {
