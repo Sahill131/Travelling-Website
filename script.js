@@ -68,6 +68,10 @@ window.addEventListener("wheel", (dets) => {
             rotate:180
         })
 
+        gsap.to(".wheel2 h1",{
+            color:"black"
+        })
+
 
 
 
@@ -85,6 +89,11 @@ window.addEventListener("wheel", (dets) => {
         gsap.to(".wheel img", {
             rotate: 0
         })
+
+         gsap.to(".wheel2 h1",{
+            color:"white"
+        })
+        
 
 
     }
